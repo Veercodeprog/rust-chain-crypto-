@@ -21,4 +21,4 @@ How is authentication managed? What about network latency? These are complex tec
 Here, we will implement a variant of **Proof of Work**, a mechanism used in well-known public blockchains like **Ethereum** (which may switch to Proof of Stake in future versions) and **Bitcoin**. We will revisit this topic of the write-up.
 If we want to visualize the relationship in a Venn diagram, it might look like this:
 
-![Venn Diagram](./mnt/data/A_simple_Venn_diagram_showing_the_relationship_bet.png)
+![Venn Diagram](images/venn-diagram.webp)

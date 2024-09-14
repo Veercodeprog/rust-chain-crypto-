@@ -13,3 +13,12 @@ To understand blockchains, we first need to discuss distributed ledgers. You've 
 You might have encountered the peer-to-peer file-sharing protocol, **BitTorrent**. This protocol allows file-sharing in a decentralized way. Typically, when downloading a file from the internet, you send a request to a specific server that stores the entire file and transfers it to your device. This is known as **client-server architecture**.
 
 BitTorrent, however, distributes a single file across multiple peers simultaneously. When downloading a file from the **Torrent network**, you're actually pulling pieces from multiple sources. Over time, you become a source yourself by participating in the network, sharing the file with others.
+
+**Distributed ledgers** have several key characteristics. The data (i.e., the ledger) often not just a simple file but more like a database, or even anything you choose it to be—is shared across multiple actors or peers. There is no single authority responsible for maintaining, modifying, or distributing the ledger. Instead, all connected peers hold a copy of the same ledger, ensuring decentralization and transparency.
+This concept raises numerous challenges and questions, such as: Who is allowed to add information to the network? Who can edit it? Who has permission to read it? How much data can be added? Who covers the cost of storage? Who pays for processing? Which data is prioritized? How do you detect failures? How do you handle malicious participants?
+How is authentication managed? What about network latency? These are complex technical issues, and addressing them requires some form of **consensus** among all participating peers. Consensus itself is a broad topic with various algorithms tailored to different use cases, each with its own set of advantages and drawbacks.
+
+Here, we will implement a variant of **Proof of Work**, a mechanism used in well-known public blockchains like **Ethereum** (which may switch to Proof of Stake in future versions) and **Bitcoin**. We will revisit this topic of the write-up.
+If we want to visualize the relationship in a Venn diagram, it might look like this:
+
+![Venn Diagram](./mnt/data/A_simple_Venn_diagram_showing_the_relationship_bet.png)

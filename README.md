@@ -22,3 +22,8 @@ Here, we will implement a variant of **Proof of Work**, a mechanism used in well
 If we want to visualize the relationship in a Venn diagram, it might look like this:
 
 ![Venn Diagram](images/venn-diagram.webp)
+//distributed ledger\*
+
+A blockchain is simply a **special type of ledger**. It differs from regular ledgers in that it remembers all the state transitions it has ever undergone.
+
+Think of it like a typical database, where every change or transaction is recorded. This allows the final state of the database to be obtained by executing all the recorded transactions in sequence. In blockchain terminology, this final state is referred to as the **World State**.
